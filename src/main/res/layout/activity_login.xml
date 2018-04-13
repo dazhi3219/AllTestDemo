@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.coco3g.socketandroid.activity.SocketTestActivity">
+
+    <TextView
+        android:id="@+id/tv_get_localhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#454545"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="获取服务器ip"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:id="@+id/tv_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#454545"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="链接服务器"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:id="@+id/tv_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#454545"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="连接服务"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_send_msg_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#454545"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:text="向服务端发送消息"
+        android:textColor="#ffffff" />
+
+
+    <ImageView
+        android:id="@+id/image_bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/app_name"
+        android:baselineAligned="false"
+        android:src="@mipmap/pic_jiangzuo_b_icon" />
+
+
+</LinearLayout>

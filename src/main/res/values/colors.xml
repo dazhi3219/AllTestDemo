@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_1">#232323</color>
+    <color name="color_2">#0000ff</color>
+    <color name="color_4">#121212</color>
+    <color name="color_3">#880000ff</color>
+    <color name="color_5">#ff0000</color>
+    <color name="color_6">#55ffff</color>
+
+    <!--自定义-->
+    <color name="app_bg_color">#f4f4f4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_1">#eeeeee</color>
+    <color name="white_2">#eaeaea</color>
+    <color name="white_3">#d4d4d4</color>
+    <color name="app_grey">#fbfbfb</color>
+    <color name="black">#000000</color>
+    <color name="black_1">#434343</color>
+    <color name="black_2">#cccccc</color>
+    <color name="text_black_2">#434343</color>
+    <color name="text_color_1">#555555</color>
+    <color name="text_color_2">#8a8a8a</color>
+    <color name="text_color_3">#b6b6b6</color>
+    <color name="text_color_4">#656565</color>
+    <color name="text_color_5">#ababab</color>
+    <color name="text_color_6">#d5d5d5</color>
+    <color name="text_color_8">#d3d3d3</color>
+    <color name="text_color_9">#ededed</color>
+    <color name="text_color_10">#e3e3e3</color>
+    <color name="text_color_11">#fff2cb</color>
+    <color name="text_color_12">#eaeaea</color>
+
+
+    <color name="text_color_blue_1">#00b0ff</color>
+    <color name="text_color_pink_1">#7c4dff</color>
+    <color name="text_color_red">#F55C38</color>
+    <color name="text_color_red_1">#ff5934</color>
+    <color name="text_color_red_2">#ff7043</color>
+    <color name="text_color_red_3">#ff9472</color>
+    <color name="text_color_red_4">#fe4344</color>
+    <color name="text_color_red_5">#fd6e00</color>
+    <color name="text_color_brown_1">#b677fd</color>
+    <color name="text_color_brown_2">#a5d6a7</color>
+    <color name="text_color_yellow_1">#f39a24</color>
+    <color name="text_color_yellow_2">#ffcc30</color>
+    <color name="text_color_yellow_3">#f7bc2c</color>
+    <color name="text_color_yellow_4">#ffa53b</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent2">#88000000</color>
+    <color name="transparent3">#b0000000</color>
+    <color name="transparent4">#00ffffff</color>
+    <color name="transparent5">#888b8786</color>
+
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ffff4444</color>ff00ddff
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ff00ddff</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

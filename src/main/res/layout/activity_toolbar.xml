@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coco3g.socketandroid.activity.ToolbarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_4"
+        android:theme="@style/AppBar">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            style="Material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="changeType1"
+            android:text="FLAG_FULLSCREEN"
+            android:textColor="#ffffff" />
+
+        <android.support.v7.widget.AppCompatButton
+            style="Material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="changeType2"
+            android:text="第六空间"
+            android:textColor="#ffffff" />
+
+        <android.support.v7.widget.AppCompatButton
+            style="Material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="changeType3"
+            android:text="第六空间"
+            android:textColor="#ffffff" />
+
+        <android.support.v7.widget.AppCompatButton
+            style="Material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="changeType4"
+            android:text="第六空间"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00ff00"
+        android:backgroundTintMode="src_atop"
+        android:onClick="downPic"
+        android:text="测试" />
+
+    <ImageView
+        android:id="@+id/image_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff0000"
+        android:backgroundTintMode="multiply"
+        android:onClick="showPic"
+        android:src="@mipmap/pic_jiangzuo_b_icon" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:text="111"
+            android:textColorHighlight="@color/color_2"
+            android:textSize="14sp"
+            android:theme="@style/checkStyle" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111" />
+
+
+        <RadioButton
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="sans-serif-condensed"
+            android:lineSpacingExtra="10sp"
+            android:text="111"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:typeface="sans"
+            android:visibility="visible" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jdkfkjdk" />
+
+
+    <ImageView
+        android:id="@+id/image_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.LinearLayoutCompat>

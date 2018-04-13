@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thickness="10dp"
+    android:useLevel="false">
+
+
+    <solid android:color="@color/text_color_red" />
+
+
+    <!--<size-->
+    <!--android:width="400dp"-->
+    <!--android:height="400dp" />-->
+
+
+    <!--<stroke-->
+    <!--android:width="3dp"-->
+    <!--android:color="@color/text_color_4"-->
+    <!--android:dashGap="1dp"-->
+    <!--android:dashWidth="10dp" />-->
+
+    <gradient
+        android:endColor="@color/text_color_blue_1"
+        android:startColor="@color/text_color_red"
+        android:type="sweep" />
+
+</shape>

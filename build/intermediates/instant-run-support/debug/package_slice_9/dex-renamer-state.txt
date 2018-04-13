@@ -1,0 +1,4 @@
+#Thu Apr 12 15:36:26 CST 2018
+base.0=/Users/mac/Documents/DemoProject/Demo1/DemoApplication1/socketandroid/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coco3g.socketandroid.activity.Main2Activity">
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看控"
+        android:textColor="#de000000"
+        android:textSize="30sp"
+        android:transitionName="@string/action_settings" />
+
+    <TextView
+        android:id="@+id/tv_test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看控"
+        android:textColor="#8a000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看控"
+        android:textColor="#42000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dljk" />
+
+    <EditText
+        android:id="@+id/edit_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressbar_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/image_main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/pic_jiangzuo_b_icon"
+        android:transitionName="@string/app_name" />
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_fullscreen_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FullscreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_3"
+        android:scaleType="centerCrop" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LKDJKJFKDJKLFJKAJDKFJKLJAKLDJFKLAJDKLFJAKLJDKFJKAJKDJFKJKJDKFLJAKJDKFJKLFJDKFJJK"
+            android:textColor="@color/text_color_red" />
+
+    </HorizontalScrollView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="allFullscreen"
+            android:text="全屏(底部虚拟导航不可见)"
+            android:textColor="#ff00ff"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="Fullscreen"
+            android:text="全屏(底部虚拟导航可见)"
+            android:textColor="#ff00ff"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_menu">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

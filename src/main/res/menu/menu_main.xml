@@ -1,0 +1,70 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.coco3g.socketandroid.MainActivity">
+
+
+    <item
+        android:id="@+id/action_settings1"
+        android:title="设置1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings2"
+        android:title="设置2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置3"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_settings4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置4"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:title="设置4.1" />
+
+
+            <item android:title="设置4.2" />
+
+            <item android:title="设置4.3" />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <group
+        android:id="@+id/menu_main_group"
+        android:checkableBehavior="single"
+        android:menuCategory="system"
+        android:visible="true">
+
+        <item
+            android:id="@+id/action_settings5"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="设置5"
+            app:showAsAction="never" />
+
+
+        <item
+            android:id="@+id/action_settings6"
+            android:icon="@mipmap/ic_launcher"
+            android:title="设置6"
+            app:showAsAction="never" />
+
+
+    </group>
+
+
+</menu>
